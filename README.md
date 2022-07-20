@@ -3,8 +3,8 @@ Add in the workshop image here
 ![Tool Logo](Image filename)
 
 
-# Title of Workshop
-Description of workshop including what you will learn and any tools that will be used in the process
+# Open Refine
+OpenRefine is an open-source desktop application for data cleanup and transformation to other formats, an activity commonly known as data wrangling.[3] It is similar to spreadsheet applications, and can handle spreadsheet file formats such as CSV, but it behaves more like a database.
 
 ----
 
