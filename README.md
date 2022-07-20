@@ -1,10 +1,9 @@
-Add in the workshop image here 
 
-![Tool Logo](Image filename)
+![Tool Logo](Intro-Open-Refine.jpg)
 
 
 # Open Refine
-OpenRefine is an open-source desktop application for data cleanup and transformation to other formats, an activity commonly known as data wrangling.[3] It is similar to spreadsheet applications, and can handle spreadsheet file formats such as CSV, but it behaves more like a database.
+OpenRefine is an open-source desktop application for data cleanup and transformation to other formats, an activity commonly known as data wrangling. It is similar to spreadsheet applications, and can handle spreadsheet file formats such as CSV, but it behaves more like a database.
 
 ----
 
