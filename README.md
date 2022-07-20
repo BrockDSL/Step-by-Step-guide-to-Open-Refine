@@ -16,7 +16,7 @@ In preparation for this module, you will need to download and unzip the Open Ref
 * Unzip the file using your preferred zipping tool (right click on the folder and choose the program to unzip with like 7zip or WinZip)
 (Optional) Make a shortcut on your desktop by opening the folder, right clicking openrefine.exe (blue gem symbol) and clicking "create shortcut" (you may need to move the new shortcut to your desktop manually depending on your operating system)
 
-You will also need to download the dataset for the workshop by clicking [HERE](Open Refine Data Set.csv)
+You will also need to download the dataset for the workshop by clicking [HERE](https://github.com/BrockDSL/Step-by-Step-guide-to-Open-Refine/blob/master/Open%20Refine%20Data%20Set.csv)
 
 ----
 
