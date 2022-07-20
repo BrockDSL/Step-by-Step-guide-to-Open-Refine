@@ -8,14 +8,15 @@ OpenRefine is an open-source desktop application for data cleanup and transforma
 ----
 
 ## Setup Instructions
-In preparation for this workshop, you will need...
+In preparation for this module, you will need to download and unzip the Open Refine package. The steps to do this are:
 
-Include:
- - All software that needs to be downloaded
- - Any accounts that will need to be made including links to the sign up pages for those accounts
- - All files that will need to be downloaded in order to participate in the workshop as well as instructions on exactly how to download them.  
+* Go to the [downloads page for Open Refine](https://openrefine.org/download.html)
+* Click the Highlighted text that represents your operating system (If you are using windows and are unsure if you have java, choose the option that comes with Java)
+* Save the file to your computer in a location that you have access to
+* Unzip the file using your preferred zipping tool (right click on the folder and choose the program to unzip with like 7zip or WinZip)
+(Optional) Make a shortcut on your desktop by opening the folder, right clicking openrefine.exe (blue gem symbol) and clicking "create shortcut" (you may need to move the new shortcut to your desktop manually depending on your operating system)
 
-For all of the above, keep in mind that some of our attendees could be using machines on campus and therefore might have limitations in regards to downloading tools and files.
+You will also need to download the dataset for the workshop by clicking [HERE]()
 
 ----
 
