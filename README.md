@@ -20,6 +20,12 @@ You will also need to download the dataset for the workshop by clicking [HERE](h
 
 ----
 
+----
+
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/42567/embed" width="993" height="449" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
+
+----
+
 ## Helpful Materials
 Add in any helpful resources, code snippets, cheat sheets, or other relevant information here.
 
