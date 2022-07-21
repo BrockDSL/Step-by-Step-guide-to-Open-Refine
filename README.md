@@ -73,18 +73,18 @@ Now we will add another column using the “Customer Name” column. We would ex
 2.	A dialogue box will appear. Under the new column name, type: **Customer First Name**. 
 3.	Make sure, on error is set to blank.
 4.	Under the expression type: <mark> split(value,'')[0]</mark>
-5.	Press “OK”
-6.	You will see the new column name, **Customer First Name** is added right next to the “Customer Name” column. 
 
 ![Exploratory Analysis](4.jpg)
 
+5.	Press “OK”
+6.	You will see the new column name, **Customer First Name** is added right next to the “Customer Name” column. 
 7.	Repeat steps 1 and 2, but for the new column name, type: **Customer Last Name**. 
 8.	Under the expression type: <mark> split(value,' ')[1]</mark>
-9.	Press “OK”
-10.	You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
 
 ![Exploratory Analysis](4.2.jpg)
 
+9.	Press “OK”
+10.	You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
 11.	Now remove the column “ Customer Name”. 
 
 ![Exploratory Analysis](4.3.jpg)
@@ -107,7 +107,7 @@ Now we will add another column using the “Customer Name” column. We would ex
 
 ![Exploratory Analysis](6.jpg)
 
-** Step 7: Manually edit cell value**
+**Step 7: Manually edit cell value**
 
 OpenRefine’s automatic data cleaning and transform functionalities have been very useful so far. However, there are still places that need manual editing.
 
@@ -127,7 +127,7 @@ We could use OpenRefine to do some basic exploratory analysis. For example, we a
 
 ![Exploratory Analysis](8.jpg)
 
-** Step 9: Export and share**
+**Step 9: Export and share**
 
 Finally, we have transformed a CSV format messy data into a nice table. We can export the resulting table into a variety of formats including Excel and use the “Permalink” in the left-upper part to share the workspace with others.
 
