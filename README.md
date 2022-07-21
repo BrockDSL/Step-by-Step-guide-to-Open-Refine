@@ -2,7 +2,7 @@
 ![Tool Logo](Intro-Open-Refine.jpg)
 
 
-# Introduction to Open Refine
+# Introduction to OpenRefine
 OpenRefine is an open-source desktop application for data cleanup and transformation to other formats, an activity commonly known as data wrangling. It is similar to spreadsheet applications, and can handle spreadsheet file formats such as CSV, but it behaves more like a database.
 
 ----
@@ -139,7 +139,6 @@ Finally, we have transformed a CSV format messy data into a nice table. We can e
 ----
   
 **End notes**
-
 **This module is brought to you by the Brock University Digital Scholarship Lab.  For a listing of our upcoming workshops go to [Experience BU](https://experiencebu.brocku.ca/organization/dsl) if you are a Brock affiliate or [Eventbrite page](https://www.eventbrite.ca/o/brock-university-digital-scholarship-lab-21661627350) for external attendees.  For additional inquiries, contact [DSL@Brocku.ca](mailto:DSL@Brocku.ca)**
 
 
