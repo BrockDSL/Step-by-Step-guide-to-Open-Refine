@@ -40,11 +40,13 @@ Data type is an attribute associated with a piece of data that tells a computer 
 
 **Step 2: Remove Column**
 Now we can see that the CSV format data has been converted into a table. But there are columns from the original data that we do not need, for example, the “COMMUTE_DISTANCE” element. We can delete that column by clicking the small triangle at the column name and choosing “Edit column” -> “Remove this column”.
+
 **Step 3: Check duplicates**
 1.	OpenRefine makes it very easy to check duplicates based on columns. Go to the “Customer Name” Column.  
 2.	Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 7 duplicate items ( true)  in the “Customer Name” column. 
 3.	Click on **true** to see the duplicates. 
 4.	We will not be using duplicate data, so click on false. You will see 22 rows. We will be using these 22 rows for our further learning. 
+5.	
 **Step 4: Add columns and split string**
 Now we will add another column using the “Customer Name” column. We would extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Please follow the below-mentioned steps to add columns using split string:-
 1.	Go to the “Customer Name” Column. Click on the small triangle at the column name. Use “Edit Column” -> “Add column based on this column”.
@@ -83,6 +85,7 @@ We could use OpenRefine to do some basic exploratory analysis. For example, we a
 3.	Press “OK”
 4.	Go to the “VEHICLEYEAR” Column.  
 5.	Click on the small triangle at the column name. Use “Facet” -> “Numeric Facet” to filter the records.
+
 ** Step 9: Export and share**
 Finally, we have transformed a CSV format messy data into a nice table. We can export the resulting table into a variety of formats including Excel and use the “Permalink” in the left-upper part to share the workspace with others.
 
