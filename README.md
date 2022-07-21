@@ -39,11 +39,11 @@ Data type is an attribute associated with a piece of data that tells a computer 
 
 ![Exploratory Analysis](1.jpg)
 
-3.	Check the following boxes: “Attempt to parse cell text into numbers” and “Trim leading and trailing whitespace from strings” and click “Create Project”.
+3. Check the following boxes: “Attempt to parse cell text into numbers” and “Trim leading and trailing whitespace from strings” and click “Create Project”.
 
 ![Exploratory Analysis](1.1.jpg)
 
-4.	You will see your project has been created. 
+4. You will see your project has been created. 
 
 ![Exploratory Analysis](1.2.jpg)
 
