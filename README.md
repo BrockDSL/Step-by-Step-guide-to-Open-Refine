@@ -7,7 +7,7 @@ OpenRefine is an open-source desktop application for data cleanup and transforma
 
 ----
 
-## Setup Instructions
+# Setup Instructions
 In preparation for this module, you will need to download and unzip the Open Refine package. The steps to do this are:
 
 * Go to the [downloads page for Open Refine](https://openrefine.org/download.html)
@@ -19,14 +19,14 @@ In preparation for this module, you will need to download and unzip the Open Ref
 You will also need to download the dataset for the workshop by clicking [HERE](https://github.com/BrockDSL/Step-by-Step-guide-to-Open-Refine/blob/master/Open%20Refine%20Data%20Set.csv)
 
 ----
-## What are Data Types?
+# What are Data Types?
 
 Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value. Understanding data types ensures that data is collected in the preferred format and the value of each property is as expected. Please click on the headings below to expand the title and know more about the different data types.
 
 <iframe src="https://h5pstudio.ecampusontario.ca/h5p/42564/embed" width="993" height="537" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
 ----
 
-## Take quiz to understand your knowledge of Data Types. 
+# Take quiz to understand your knowledge of Data Types. 
 
 <iframe src="https://h5pstudio.ecampusontario.ca/h5p/42567/embed" width="993" height="449" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -133,7 +133,7 @@ Finally, we have transformed a CSV format messy data into a nice table. We can e
 
 ----
 
-## Resources
+# Resources
 [Open Refine Manual](https://docs.openrefine.org/): The OpneRefine manual is intended to walk you through every aspect of installing and using OpenRefine 3.5, including every interface function and feature.
 
 ----
