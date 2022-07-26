@@ -89,7 +89,7 @@ Now we will add another column using the “Customer Name” column. We would ex
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
 * Now remove the column “ Customer Name”. 
 
-![Exploratory Analysis](4.3.jpg)
+![Exploratory Analysis](4.3.1.jpg)
 
 **Step 5: Common transforms**
 
