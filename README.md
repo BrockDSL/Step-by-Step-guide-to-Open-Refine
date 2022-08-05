@@ -6,7 +6,7 @@
 
 Almost every dataset you’ll encounter will be messy. Often, there are inconsistencies in the way the data is entered –– from misspellings to extra spaces –– that can make the data difficult to analyze later.
 
-It’s super important to clean your data before trying to use it in any way. In this tutorial, we’ll learn how to clean up inconsistent data with a powerful program called OpenRefine. OpenRefine is an open-source desktop application for data cleanup and transformation to other formats, an activity commonly known as data wrangling. It is similar to spreadsheet applications, and can handle spreadsheet file formats such as CSV, but it behaves more like a database.
+It’s super important to clean your data before trying to use it in any way. In this module, we’ll learn how to clean up inconsistent data with a powerful program called OpenRefine. OpenRefine is an open-source desktop application for data cleanup and transformation to other formats, an activity commonly known as data wrangling. It is similar to spreadsheet applications, and can handle spreadsheet file formats such as CSV, but it behaves more like a database.
 
 ----
 
