@@ -14,8 +14,9 @@ In preparation for this module, you will need to download and unzip the Open Ref
 * Go to the [downloads page for Open Refine](https://openrefine.org/download.html)
 * Click the Highlighted text that represents your operating system (If you are using windows and are unsure if you have java, choose the option that comes with Java)
 * Save the file to your computer in a location that you have access to
-* Unzip the file using your preferred zipping tool (right click on the folder and choose the program to unzip with like 7zip or WinZip)
-(Optional) Make a shortcut on your desktop by opening the folder, right clicking openrefine.exe (blue gem symbol) and clicking "create shortcut" (you may need to move the new shortcut to your desktop manually depending on your operating system)
+* Unzip the file using your preferred zipping tool (right click on the folder and choose the program to unzip with like 7zip or WinZip).
+* (Optional) Make a shortcut on your desktop by opening the folder, right clicking openrefine.exe (blue gem symbol) and clicking "create shortcut" (you may need to move the new shortcut to your desktop manually depending on your operating system).
+* When you launch OpenRefine, First, it will open a black dialogue box with codes and it should automatically open a new browser window. (Note: OpenRefine doesn’t operate as a desktop application, but instead uses a browser window. A black dialogue box needs to remain open for the period you are using Open Refine.)
 
 You will also need to download the dataset for the workshop by clicking [HERE](https://github.com/BrockDSL/Step-by-Step-guide-to-Open-Refine/blob/master/Open%20Refine%20Data%20Set.csv)
 
