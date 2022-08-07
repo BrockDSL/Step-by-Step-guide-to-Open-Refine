@@ -35,9 +35,6 @@ Data in OpenRefine is auto-sorted into different data types. Since each data typ
 ----
 # 4.Now let’s practice cleaning some data.
 
-
-**Step 1: Create a project**
-
 Almost every dataset you’ll encounter will be messy. Often, there are inconsistencies in the way the data is entered has misspellings, extra spaces, and unknown values which can make the data difficult to analyze later. It’s important to clean your data before trying to use it in any way. In this module, we’ll learn how to clean up inconsistent data with a powerful program called OpenRefine.
 
 The dataset that will be used in this workshop details data collected by an imaginary car insurance company.  The data is still raw and thus needs to be cleaned up by fixing incorrect values, dealing with missing values, and removing values that are not important for the analysis we want to do. Our job is to remove the erroneous values and improve the quality of the data by using Open Refine. 
@@ -56,6 +53,8 @@ The following is the description of each variable:
 | COMMUTE_DISTANCE | Distance of the client’s commute from their home to their place of work provided by the client (in kilometers) |
 
 
+
+**Step 1: Create a project**
 
 * In your browser for the OpenRefine tab, choose to create a project from and select “This Computer” under the **Get data from** heading. 
 * Choose the file “Open Refine Data Set” that we downloaded during setup instructions and Click on Next. 
