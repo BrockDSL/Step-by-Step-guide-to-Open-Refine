@@ -38,6 +38,18 @@ Data in OpenRefine is auto-sorted into different data types. Since each data typ
 
 **Step 1: Create a project**
 
+| Variable | Definition |
+| ----------- | ----------- |
+| ID_VARIABLE | Identification Number |
+| CUSTOMER NAME | Name of the customer |
+| PROVINCE | Place the client is located |
+| VEHICLEYEAR | Year of the vehicle |
+| VEHICLEMAKE | Make of the vehicle |
+| VEHICLEMODEL | Vehicle Model |
+| ANNUAL_KM | The number of kilometers the client drives on an annual basis provided by the client |
+| COMMUTE_DISTANCE | Distance of the client’s commute from their home to their place of work provided by the client (in kilometers) |
+
+
 * In your browser for the OpenRefine tab, choose to create a project from and select “This Computer” under the **Get data from** heading. 
 * Choose the file “Open Refine Data Set” that we downloaded during setup instructions and Click on Next. 
 
