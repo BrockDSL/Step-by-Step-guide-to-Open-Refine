@@ -65,23 +65,29 @@ The following is the description of each variable:
 * To see all 29 records, go to the top and click on **50** under "Show as" records.
 
 
-**Step 2: Remove Column**
+**Step 2: Using Facet**
 
-Now we can see that the CSV format data has been converted into a table. But there are columns from the original data that we do not need, for example, the “COMMUTE_DISTANCE” element. We can delete that column by clicking the small triangle at the column name and choosing “Edit column” -> “Remove this column”.
+A *‘Facet’* groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time. There are different kinds of facets such as text facet, numeric facet, timeline facet, scatterplot facet, and customize facet. 
 
-![Exploratory Analysis](2.jpg)
+**Text facet** groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left-hand panel in the OpenRefine interface.
+**Numeric** and **Timeline facets** display graphs instead of lists of values. The graph includes ‘drag and drops’ controls you can use to set a start and end range to filter the data displayed.
 
-**Step 3: Check duplicates**
+**Scatterplot facets** display a visual representation of two related sets of numeric data.
 
-* OpenRefine makes it very easy to check duplicates based on columns. Go to the “Customer Name” Column.  
-* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 7 duplicate items ( true)  in the “Customer Name” column. 
+**Custom facets** are a range of different types of facets. Some of the default custom facets are:
+
+1) Word facet - This breaks down text into words and counts the number of records each word appears in
+2) Duplicates facet - This results in a binary facet of ‘true’ or ‘false’. Rows appear in the ‘true’ facet if the value in the selected column is an exact match for a value in the same column in another row
+3) Text length facet - It creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
+4) Facet by blank - A binary facet of ‘true’ or ‘false’. Rows appear in the ‘true’ facet if they have no data present in that column. This is useful when looking for rows missing key data.
+
+* Go to the “Customer Name” Column.  
+* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer Name” column. 
 * Click on **true** to see the duplicates. 
 
-![Exploratory Analysis](3.jpg)
 
-* We will not be using duplicate data, so click on false. You will see 22 rows. We will be using these 22 rows for our further learning. 
+* We will not be using duplicate data, so click on false. You will see 24 rows. We will be using these 24 rows for our further learning. 
 
-![Exploratory Analysis](3.2.jpg)
 
 **Step 4: Add columns and split string**
 
