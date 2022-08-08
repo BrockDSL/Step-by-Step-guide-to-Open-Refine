@@ -71,16 +71,17 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
  ![](2.jpg)
 
-**Text facet** groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left-hand panel in the OpenRefine interface.
-**Numeric** and **Timeline facets** display graphs instead of lists of values. The graph includes ‘drag and drops’ controls you can use to set a start and end range to filter the data displayed.
+* **Text facet** groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left-hand panel in the OpenRefine interface.
 
-**Scatterplot facets** display a visual representation of two related sets of numeric data.
+* **Numeric** and **Timeline facets** display graphs instead of lists of values. The graph includes ‘drag and drops’ controls you can use to set a start and end range to filter the data displayed.
 
-**Custom facets** are a range of different types of facets. Some of the default custom facets are:
+* **Scatterplot facets** display a visual representation of two related sets of numeric data.
 
-1) Word facet - This breaks down text into words and counts the number of records each word appears in
-2) Duplicates facet - This results in a binary facet of ‘true’ or ‘false’. Rows appear in the ‘true’ facet if the value in the selected column is an exact match for a value in the same column in another row
-3) Text length facet - It creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
+* **Custom facets** are a range of different types of facets. Some of the default custom facets are:
+
+1) Word facet - This breaks down text into words and counts the number of records each word appears in.
+2) Duplicates facet - This results in a binary facet of ‘true’ or ‘false’. Rows appear in the ‘true’ facet if the value in the selected column is an exact match for a value in the same column in another row.
+3) Text length facet - It creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect).
 4) Facet by blank - A binary facet of ‘true’ or ‘false’. Rows appear in the ‘true’ facet if they have no data present in that column. This is useful when looking for rows missing key data.
 
 **Let's create a Customized Facet.**
