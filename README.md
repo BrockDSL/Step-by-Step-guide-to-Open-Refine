@@ -61,10 +61,9 @@ The following is the description of each variable:
 * Click “Create Project”
 
 
-
 * You will see your project has been created. 
+* To see all 29 records, go to the top and click on **50** under "Show as" records.
 
-![Exploratory Analysis](1.2.jpg)
 
 **Step 2: Remove Column**
 
