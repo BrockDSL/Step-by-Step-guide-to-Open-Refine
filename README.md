@@ -59,15 +59,17 @@ The following is the description of each variable:
 * In your browser for the OpenRefine tab, choose to create a project from and select “This Computer” under the **Get data from** heading. 
 * Choose the file “Open Refine Data Set” that we downloaded during setup instructions and Click on Next. 
 * Click “Create Project”
-
-
+ ![](1.jpg)
+ 
 * You will see your project has been created. 
 * To see all 29 records, go to the top and click on **50** under "Show as" records.
-
+ ![](1.1jpg)
 
 **Step 2: Using Facet**
 
 A *‘Facet’* groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time. There are different kinds of facets such as text facet, numeric facet, timeline facet, scatterplot facet, and customize facet. 
+
+ ![](2.jpg)
 
 **Text facet** groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left-hand panel in the OpenRefine interface.
 **Numeric** and **Timeline facets** display graphs instead of lists of values. The graph includes ‘drag and drops’ controls you can use to set a start and end range to filter the data displayed.
@@ -85,9 +87,10 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer Name” column. 
 * Click on **true** to see the duplicates. 
 
-
+ ![](2.1jpg)
+ 
 * We will not be using duplicate data, so click on false. You will see 24 rows. We will be using these 24 rows for our further learning. 
-
+ ![](2.2.jpg)
 
 **Step 4: Add columns and split string**
 
