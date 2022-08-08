@@ -83,11 +83,12 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 3) Text length facet - It creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
 4) Facet by blank - A binary facet of ‘true’ or ‘false’. Rows appear in the ‘true’ facet if they have no data present in that column. This is useful when looking for rows missing key data.
 
+**Let's create a Customized Facet.**
 * Go to the “Customer Name” Column.  
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer Name” column. 
 * Click on **true** to see the duplicates. 
 
- ![](2.1jpg)
+ ![](2.1.jpg)
  
 * We will not be using duplicate data, so click on false. You will see 24 rows. We will be using these 24 rows for our further learning. 
  ![](2.2.jpg)
