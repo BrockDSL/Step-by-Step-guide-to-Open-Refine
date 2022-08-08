@@ -58,12 +58,9 @@ The following is the description of each variable:
 
 * In your browser for the OpenRefine tab, choose to create a project from and select “This Computer” under the **Get data from** heading. 
 * Choose the file “Open Refine Data Set” that we downloaded during setup instructions and Click on Next. 
+* Click “Create Project”
 
-![Exploratory Analysis](1.jpg)
 
-* Check the following boxes: “Attempt to parse cell text into numbers” and “Trim leading and trailing whitespace from strings” and click “Create Project”.
-
-![Exploratory Analysis](1.1.jpg)
 
 * You will see your project has been created. 
 
