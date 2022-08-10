@@ -66,6 +66,7 @@ The following is the description of each variable:
 * To see all 29 records, go to the top and click on **50** under "Show as" records.
 
  ![](1.2jpg) 
+ 
  ---
 
 **Step 2: Using Facet**
@@ -102,7 +103,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
  ![](1.3.jpg)
 ---
 
-**Step 4: Using GREL**
+**Step 3: Using GREL**
 
 GREL, or General Refine Expression Language, is a language used to work with and manipulate data, cells, and columns in OpenRefine. GREL can be utilized in a number of places in OpenRefine including:
 
