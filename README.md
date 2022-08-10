@@ -148,6 +148,8 @@ We will add another column using the “Customer Name” column. We would extrac
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
 * To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. You will have **Customer Last Name** and **Customer First Name** columns for further analysis. 
 
+![](3.2.jpg)
+
 ---
 
 **Step 5: Common transforms**
