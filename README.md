@@ -59,12 +59,13 @@ The following is the description of each variable:
 * In your browser for the OpenRefine tab, choose to create a project from and select “This Computer” under the **Get data from** heading. 
 * Choose the file “Open Refine Data Set” that we downloaded during setup instructions and Click on Next. 
 * Click “Create Project”
+
  ![](1.jpg)
  
 * You will see your project has been created. 
 * To see all 29 records, go to the top and click on **50** under "Show as" records.
 
- ![](1.2.jpg)
+ ![](1.2jpg)
  
  ---
 
@@ -99,6 +100,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
  
 * Click on "Remove All" tab, in the left-hand panel to close the facets.
 
+ ![](1.3.jpg)
 ---
 
 **Step 4: Using GREL**
