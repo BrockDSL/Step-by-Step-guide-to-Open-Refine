@@ -63,7 +63,8 @@ The following is the description of each variable:
  
 * You will see your project has been created. 
 * To see all 29 records, go to the top and click on **50** under "Show as" records.
- ![](1.1jpg)
+
+ ![](1.1.jpg)
 
 **Step 2: Using Facet**
 
