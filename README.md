@@ -135,12 +135,14 @@ We will add another column using the “Customer Name” column. We would extrac
 * Make sure, on error is set to blank.
 * Under the expression type: <mark> split(value,'')[0]</mark>
 
+ ![](3.jpg)
 
 * Press “OK”
 * You will see the new column name, **Customer First Name** is added right next to the “Customer Name” column. 
 * Repeat first 2 procedures, but for the new column name, type: **Customer Last Name**. 
 * Under the expression type: <mark>split(value,' ')[1]</mark>
 
+![](3.1.jpg)
 
 * Press “OK”
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
