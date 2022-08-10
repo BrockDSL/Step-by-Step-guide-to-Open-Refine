@@ -133,20 +133,18 @@ We will add another column using the “Customer Name” column. We would extrac
 * Make sure, on error is set to blank.
 * Under the expression type: <mark> split(value,'')[0]</mark>
 
-![Exploratory Analysis](4.jpg)
 
 * Press “OK”
 * You will see the new column name, **Customer First Name** is added right next to the “Customer Name” column. 
 * Repeat first 2 procedures, but for the new column name, type: **Customer Last Name**. 
 * Under the expression type: <mark>split(value,' ')[1]</mark>
 
-![Exploratory Analysis](4.2.jpg)
 
 * Press “OK”
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
 * To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. You will have **Customer Last Name** and **Customer First Name** columns for further analysis. 
 
-![Exploratory Analysis](4.3.1.jpg)
+---
 
 **Step 5: Common transforms**
 
