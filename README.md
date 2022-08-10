@@ -154,12 +154,11 @@ Now we will see use another method to transform the data using GREL. You will se
 * Select “Edit Cell” -> “Transform” option. 
 * A dialogue box will appear to write the GREL statement. Type or paste-  <mark>value.replace(" /VAN","").replace(" /TRUCK","") </mark> and press OK.
 
+![](3.3.jpg)
 
 * You will see your column “VEHICLEMAKE” has been transformed. 
 
-
-
-
+![](3.4.jpg)
 
 ---
 
