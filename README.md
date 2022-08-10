@@ -98,7 +98,30 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * We will not be using duplicate data, so click on false. You will see 24 rows. We will be using these 24 rows for our further learning. 
  ![](2.2.jpg)
 
-**Step 4: Add columns and split string**
+**Step 4: Using GREL**
+
+GREL, or General Refine Expression Language, is a language used to work with and manipulate data, cells, and columns in OpenRefine. GREL can be utilized in a number of places in OpenRefine including:
+
+* Adding a column based on another column
+* Adding a column by fetching URLs
+* Transforming cell contents
+* Creating custom facets (both number and text)
+
+NOTE: GREL is case-sensitive, meaning that (for example) "Match" and "match" will not produce the same result.
+
+***SYNTAX***
+
+GREL was designed to resemble JavaScript and generally uses “in sequence” syntax with a dot between each argument. For example:
+
+**value.replace('cat’, ‘dog')**:- In this case, the values of the current column will be searched for the string ‘cat’ which will be replaced by the string ‘dog’.
+
+GREL includes a specific vocabulary for referring to cell values:
+
+* value = the values in the current column
+
+* cells['Column2'].value = the values in the specified column, ‘Column2’
+
+* A string can be written with either single or double quotation marks.
 
 Now we will add another column using the “Customer Name” column. We would extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Please follow the below-mentioned procedure to add columns using split string:-
 
