@@ -65,6 +65,8 @@ The following is the description of each variable:
 * To see all 29 records, go to the top and click on **50** under "Show as" records.
 
  ![](1.2.jpg)
+ 
+ ---
 
 **Step 2: Using Facet**
 
@@ -95,21 +97,22 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
  ![](2.1.jpg)
  
-* We will not be using duplicate data, so click on false. You will see 24 rows. We will be using these 24 rows for our further learning. 
- ![](2.2.jpg)
+* Click on "Remove All" tab, in the left-hand panel to close the facets.
+
+---
 
 **Step 4: Using GREL**
 
 GREL, or General Refine Expression Language, is a language used to work with and manipulate data, cells, and columns in OpenRefine. GREL can be utilized in a number of places in OpenRefine including:
 
-* Adding a column based on another column
-* Adding a column by fetching URLs
-* Transforming cell contents
-* Creating custom facets (both number and text)
+* Adding a column based on another column.
+* Adding a column by fetching URLs.
+* Transforming cell contents.
+* Creating custom facets (both number and text).
 
-NOTE: GREL is case-sensitive, meaning that (for example) "Match" and "match" will not produce the same result.
+*NOTE: GREL is case-sensitive, meaning that (for example) "Match" and "match" will not produce the same result.*
 
-***SYNTAX***
+<ins>***SYNTAX***</ins>
 
 GREL was designed to resemble JavaScript and generally uses “in sequence” syntax with a dot between each argument. For example:
 
@@ -117,13 +120,13 @@ GREL was designed to resemble JavaScript and generally uses “in sequence” sy
 
 GREL includes a specific vocabulary for referring to cell values:
 
-* value = the values in the current column
-
+* value = the values in the current column.
 * cells['Column2'].value = the values in the specified column, ‘Column2’
-
 * A string can be written with either single or double quotation marks.
 
-Now we will add another column using the “Customer Name” column. We would extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Please follow the below-mentioned procedure to add columns using split string:-
+*Let's use GREL to clean our data*
+
+We will add another column using the “Customer Name” column. We would extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Please follow the below-mentioned procedure to add columns using split string:-
 
 * Go to the “Customer Name” Column. Click on the small triangle at the column name. Use “Edit Column” -> “Add column based on this column”.
 * A dialogue box will appear. Under the new column name, type: **Customer First Name**. 
@@ -135,13 +138,13 @@ Now we will add another column using the “Customer Name” column. We would ex
 * Press “OK”
 * You will see the new column name, **Customer First Name** is added right next to the “Customer Name” column. 
 * Repeat first 2 procedures, but for the new column name, type: **Customer Last Name**. 
-* Under the expression type: <mark> split(value,' ')[1]</mark>
+* Under the expression type: <mark>split(value,' ')[1]</mark>
 
 ![Exploratory Analysis](4.2.jpg)
 
 * Press “OK”
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
-* Now remove the column “ Customer Name”. 
+* To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. You will have **Customer Last Name** and **Customer First Name** columns for further analysis. 
 
 ![Exploratory Analysis](4.3.1.jpg)
 
