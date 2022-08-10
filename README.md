@@ -65,8 +65,7 @@ The following is the description of each variable:
 * You will see your project has been created. 
 * To see all 29 records, go to the top and click on **50** under "Show as" records.
 
- ![](1.2jpg)
- 
+ ![](1.2jpg) 
  ---
 
 **Step 2: Using Facet**
@@ -150,6 +149,18 @@ We will add another column using the “Customer Name” column. We would extrac
 
 ![](3.2.jpg)
 
+Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand, which does not make sense. We will remove the */TRUCK and /VAN* from the cell using the GREL statement. 
+* Go to column name “VEHICLEMAKE”
+* Select “Edit Cell” -> “Transform” option. 
+* A dialogue box will appear to write the GREL statement. Type or paste-  <mark>value.replace(" /VAN","").replace(" /TRUCK","") </mark> and press OK.
+
+
+* You will see your column “VEHICLEMAKE” has been transformed. 
+
+
+
+
+
 ---
 
 **Step 5: Common transforms**
@@ -169,15 +180,6 @@ We will add another column using the “Customer Name” column. We would extrac
 * We will not be using the empty data, so click on false. You will see 21 rows. 
 
 ![Exploratory Analysis](6.jpg)
-
-**Step 7: Manually edit cell value**
-
-OpenRefine’s automatic data cleaning and transform functionalities have been very useful so far. However, there are still places that need manual editing.
-
-* Go to the column “VEHICLEMAKE”. You will see many values have * TRUCK/VAN* along with its brand, which does not make sense. So, we will manually remove the *TRUCK/VAN* from each cell. 
-* We can edit individual cell values by moving the cursor to the cell to be edited and clicking “edit”. Remove TRUCK/VAN and press “Apply”. We do this until every cell is satisfactory.
-
-![Exploratory Analysis](7.jpg)
 
 **Step 8: Exploratory Analysis**
 
