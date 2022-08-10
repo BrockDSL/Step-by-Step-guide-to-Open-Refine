@@ -126,7 +126,7 @@ GREL includes a specific vocabulary for referring to cell values:
 * cells['Column2'].value = the values in the specified column, ‘Column2’
 * A string can be written with either single or double quotation marks.
 
-*Let's use GREL to clean our data*
+**Let's use GREL to clean our data**
 
 We will add another column using the “Customer Name” column. We would extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Please follow the below-mentioned procedure to add columns using split string:-
 
