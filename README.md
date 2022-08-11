@@ -128,7 +128,13 @@ GREL includes a specific vocabulary for referring to cell values:
 
 **Let's use GREL to clean our data**
 
-We will add another column using the “Customer Name” column. We would extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Please follow the below-mentioned procedure to add columns using split string:-
+We will add another column using the “Customer Name” column. We would extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Splitting works in the following way:-
+
+**value.split(";")[0]**
+
+The first part (value.split(";")) will split the value into an array (list) using a semicolon as the character to split it up. The [0] directs OpenRefine to take the first item from the list created by the 'split' command. (and you can guess, using [1] instead would take the second value, [2] the third, etc.)
+
+Please follow the below-mentioned procedure to add columns using split string:-
 
 * Go to the “Customer Name” Column. Click on the small triangle at the column name. Use “Edit Column” -> “Add column based on this column”.
 * A dialogue box will appear. Under the new column name, type: **Customer First Name**. 
