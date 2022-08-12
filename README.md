@@ -210,7 +210,25 @@ OpenRefine features several functions for performing commonly needed transformat
 
 **Step 5: Clustering
 
-![Exploratory Analysis](8.jpg)
+Clustering is defined in OpenRefine as "finding groups of different values that may be alternative representations of the same thing." Clustering works by performing "fuzzy matching" on the values within a selected column using the algorithm of your choice to determine if cell values "look similar" enough to be possible matches. 
+There are two types of algorithms supported by OpenRefine:
+
+* Key collide: The idea behind "Key Collision" methods is to create an alternative representation of a value (a "key") that contains only the most valuable or meaningful part of the string and "buckets" (or "bin" as it's described inside OpenRefine's code) together different strings based on the fact that their key is the same (hence the name "key collision"). There are six key collide methods – fingerprint, n-gram fingerprint, metaphone3, cologne phonetics, Daitch-Moktoff, and Beider-Morse. 
+
+* Closest neighbor: The Nearest Neighbor methods (also known as kNN), on the other hand, provide a parameter (the radius or k) that represents a distance threshold: any pair of strings that are closer than a certain value will be binned together.
+
+**Let’s  use clustering**
+
+* Go to the column “VEHICLEMAKE” and click the arrow button on the column header, then select the “Edit cells” option and choose “Cluster and edit.”
+* A clustering window will open. In the Clustering window, you will see several options - At the top of the window is where you can choose the type of algorithm to run, and in the center of the window is a list of the suggested clusters, the current values, and suggested new value.
+* Set the method to “key collision”.
+* Go to the key function and click on the downward arrow. A drop-down menu will open. Select “metaphone3”. 
+![]()
+* You will see a cluster for HONDA and HOND. The HOND is misspelled, and it should have been HONDA instead of HOND. 
+* Select the “Merge?” box and confirm that the text box in the “New Cell Value” column is HONDA. 
+* When you are ready, select “Merge Selected & Close.” “Merge Selected & Close” edits the selected values and then closes out of the Clustering window. 
+![]()
+----
 
 **Step 6: Export and share**
 
