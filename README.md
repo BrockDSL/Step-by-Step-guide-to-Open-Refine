@@ -60,12 +60,12 @@ The following is the description of each variable:
 * Choose the file “Open Refine Data Set” that we downloaded during setup instructions and Click on Next. 
 * Click “Create Project”
 
- ![](1.jpg)
+ ![WINDOW TO GO NEXT](1.jpg)
  
 * You will see your project has been created. 
 * To see all 29 records, go to the top and click on **50** under "Show as" records.
 
- ![](1.2.jpg) 
+ ![ALL RECORDS](1.2.jpg) 
  
  ---
 
@@ -73,7 +73,7 @@ The following is the description of each variable:
 
 A *‘Facet’* groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time. There are different kinds of facets such as text facet, numeric facet, timeline facet, scatterplot facet, and customize facet. 
 
- ![](2.jpg)
+ ![TYPES OF FACET](2.jpg)
 
 * **Text facet** groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left-hand panel in the OpenRefine interface.
 
@@ -98,11 +98,11 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer Name” column. 
 * Click on **true** to see the duplicates. 
 
- ![](2.1.jpg)
+ ![LEFT HAND PANEL FOR FACET](2.1.jpg)
  
 * Click on "Remove All" tab, in the left-hand panel to close the facets.
 
- ![](1.3.jpg)
+ ![LEFT HAND PANEL FOR FALSE VALUES](1.3.jpg)
  
  <ins>Now we will create facet for missing values.</ins>
  * We may want to remove the “bad values” or the “outliers”. Outliers are observations that are very different from the majority of the observations in the data set. Missing values are outliers in our data set.
@@ -151,20 +151,20 @@ Please follow the below-mentioned procedure to add columns using split string:-
 * Make sure, on error is set to blank.
 * Under the expression type: <mark> split(value,'')[0]</mark>
 
- ![](3.jpg)
+ ![GREL WINDOW FOR CODE OF FIRST NAME](3.jpg)
 
 * Press “OK”
 * You will see the new column name, **Customer First Name** is added right next to the “Customer Name” column. 
 * Repeat first 2 procedures, but for the new column name, type: **Customer Last Name**. 
 * Under the expression type: <mark>split(value,' ')[1]</mark>
 
-![](3.1.jpg)
+![GREL WINDOW FOR CODE OF LAST NAME](3.1.jpg)
 
 * Press “OK”
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
 * To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. You will have **Customer Last Name** and **Customer First Name** columns for further analysis. 
 
-![](3.2.jpg)
+![Transformed into customer first and last name](3.2.jpg)
 
 Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand, which does not make sense. We will remove the */TRUCK and /VAN* from the cell using the GREL statement. 
 * Go to column name “VEHICLEMAKE”
@@ -175,7 +175,7 @@ Now we will see use another method to transform the data using GREL. You will se
 
 * You will see your column “VEHICLEMAKE” has been transformed. 
 
-![](3.4.jpg)
+![GREL Replace column](3.4.jpg)
 
 ---
 
@@ -204,7 +204,7 @@ OpenRefine features several functions for performing commonly needed transformat
 * OpenRefine allows for easy transformation by providing a set of functionalities under “Edit cell” -> “Common transforms”.
 * Select **to uppercase** to make all the provinces in the capital.
 
-![](4.jpg)
+![Common transform for uppercase](4.jpg)
 
 ----
 
@@ -224,13 +224,14 @@ There are two types of algorithms supported by OpenRefine:
 * Set the method to “key collision”.
 * Go to the key function and click on the downward arrow. A drop-down menu will open. Select “metaphone3”. 
 
-![](5.jpg)
+![Clustering window](5.jpg)
 
 * You will see a cluster for HONDA and HOND. The HOND is misspelled, and it should have been HONDA instead of HOND. 
 * Select the “Merge?” box and confirm that the text box in the “New Cell Value” column is HONDA. 
 * When you are ready, select “Merge Selected & Close.” “Merge Selected & Close” edits the selected values and then closes out of the Clustering window. 
 
-![](5.2.jpg)
+![Clustered column picture](5.2.jpg)
+
 ----
 
 **Step 6: Export and share**
