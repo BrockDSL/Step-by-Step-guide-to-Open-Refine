@@ -219,7 +219,7 @@ Finally, we have transformed a CSV format messy data into a nice table. We can e
 ----
 
 # 5.Resources
-[Open Refine Manual](https://docs.openrefine.org/): The OpneRefine manual is intended to walk you through every aspect of installing and using OpenRefine 3.5, including every interface function and feature.
+[Open Refine Manual](https://docs.openrefine.org/): The Open Refine manual is intended to walk you through every aspect of installing and using OpenRefine 3.5, including every interface function and feature.
 
 ----
   
