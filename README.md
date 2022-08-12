@@ -194,6 +194,9 @@ OpenRefine features several functions for performing commonly needed transformat
 * OpenRefine allows for easy transformation by providing a set of functionalities under “Edit cell” -> “Common transforms”.
 * Select **to uppercase** to make all the provinces in the capital.
 
+![](4.jpg)
+
+----
 
 **Step 6: Delete rows with blank cells**
 
