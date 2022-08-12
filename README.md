@@ -93,7 +93,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
 **Let's create a Facet.**
 
-<ins>We will first create a customized facet.</ins>
+<ins>We will first create a facet for duplicate values.</ins>
 * Go to the “Customer Name” Column.  
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer Name” column. 
 * Click on **true** to see the duplicates. 
@@ -104,7 +104,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
  ![](1.3.jpg)
  
- <ins>Now we will create another facet.</ins>
+ <ins>Now we will create facet for missing values.</ins>
  * We may want to remove the “bad values” or the “outliers”. Outliers are observations that are very different from the majority of the observations in the data set. Missing values are outliers in our data set.
 * Go to the “Customer First Name” Column.  
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a panel on the left-hand side, with a true and false value.  
