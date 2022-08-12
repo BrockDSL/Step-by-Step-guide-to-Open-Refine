@@ -21,11 +21,13 @@ In preparation for this module, you will need to download and unzip the Open Ref
 You will also need to download the dataset for the workshop by clicking [HERE](https://github.com/BrockDSL/Step-by-Step-guide-to-Open-Refine/raw/master/Open%20Refine%20Data%20Set.xlsx)
 
 ----
+
 # 3.What are Data Types?
 
 Data in OpenRefine is auto-sorted into different data types. Since each data type has some slightly different functionality, you may want to understand each data type and its usage. Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value. Understanding data types ensures that data is collected in the preferred format and the value of each property is as expected. Please click on the headings below to expand the title and learn more about the different data types.
 
 <iframe src="https://h5pstudio.ecampusontario.ca/h5p/42564/embed" width="993" height="537" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
+
 ----
 
 # 3.1.Take quiz to test your knowledge of Data Types. 
@@ -33,6 +35,7 @@ Data in OpenRefine is auto-sorted into different data types. Since each data typ
 <iframe src="https://h5pstudio.ecampusontario.ca/h5p/42567/embed" width="993" height="449" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ----
+
 # 4.Now let’s practice cleaning some data.
 
 Almost every dataset you’ll encounter will be messy. Often, there are inconsistencies in the way the data is entered has misspellings, extra spaces, and unknown values which can make the data difficult to analyze later. It’s important to clean your data before trying to use it in any way. In this module, we’ll learn how to clean up inconsistent data with a powerful program called OpenRefine.
@@ -52,7 +55,7 @@ The following is the description of each variable:
 | ANNUAL_KM | The number of kilometers the client drives on an annual basis provided by the client |
 | COMMUTE_DISTANCE | Distance of the client’s commute from their home to their place of work provided by the client (in kilometers) |
 
-
+----
 
 **Step 1: Create a project**
 
@@ -67,7 +70,7 @@ The following is the description of each variable:
 
  ![ALL RECORDS](1.2.jpg) 
  
- ---
+ ----
 
 **Step 2: Using Facet**
 
@@ -111,7 +114,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * Click on **true** to see the rows with empty values. 
 * We will not be using the empty data, so click on false. You will see 28 rows. We will use these 28 rows for our further analysis. 
 
----
+----
 
 **Step 3: Using GREL**
 
@@ -177,7 +180,7 @@ Now we will see use another method to transform the data using GREL. You will se
 
 ![GREL Replace column](3.4.jpg)
 
----
+----
 
 **Step 4: Common transforms**
 
