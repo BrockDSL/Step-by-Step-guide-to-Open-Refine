@@ -208,7 +208,7 @@ OpenRefine features several functions for performing commonly needed transformat
 
 ----
 
-**Step 5: Clustering
+**Step 5: Clustering**
 
 Clustering is defined in OpenRefine as "finding groups of different values that may be alternative representations of the same thing." Clustering works by performing "fuzzy matching" on the values within a selected column using the algorithm of your choice to determine if cell values "look similar" enough to be possible matches. 
 There are two types of algorithms supported by OpenRefine:
@@ -223,11 +223,14 @@ There are two types of algorithms supported by OpenRefine:
 * A clustering window will open. In the Clustering window, you will see several options - At the top of the window is where you can choose the type of algorithm to run, and in the center of the window is a list of the suggested clusters, the current values, and suggested new value.
 * Set the method to “key collision”.
 * Go to the key function and click on the downward arrow. A drop-down menu will open. Select “metaphone3”. 
-![]()
+
+![](5.jpg)
+
 * You will see a cluster for HONDA and HOND. The HOND is misspelled, and it should have been HONDA instead of HOND. 
 * Select the “Merge?” box and confirm that the text box in the “New Cell Value” column is HONDA. 
 * When you are ready, select “Merge Selected & Close.” “Merge Selected & Close” edits the selected values and then closes out of the Clustering window. 
-![]()
+
+![](5.2.jpg)
 ----
 
 **Step 6: Export and share**
