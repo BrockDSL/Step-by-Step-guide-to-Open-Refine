@@ -2,7 +2,7 @@
 ![Tool Logo](Intro-Open-Refine.jpg)
 
 
-# 1.Introduction to OpenRefine
+# 1.Introduction to Open Refine
 
 Open Refine is an open-source desktop application for data cleanup and transformation to other formats, an activity commonly known as data wrangling. It is similar to spreadsheet applications, and can handle spreadsheet file formats such as CSV, but it behaves more like a database.
 
@@ -16,7 +16,7 @@ In preparation for this module, you will need to download and unzip the Open Ref
 * Save the file to your computer in a location that you have access to
 * Unzip the file using your preferred zipping tool (right click on the folder and choose the program to unzip with like 7zip or WinZip).
 * (Optional) Make a shortcut on your desktop by opening the folder, right clicking openrefine.exe (blue gem symbol) and clicking "create shortcut" (you may need to move the new shortcut to your desktop manually depending on your operating system).
-* When you launch OpenRefine, First, it will open a black dialogue box with codes and it should automatically open a new browser window. (Note: OpenRefine doesn’t operate as a desktop application, but instead uses a browser window. A black dialogue box needs to remain open for the period you are using Open Refine.)
+* After you launch OpenRefine, it will open a black dialogue box with codes and it should automatically open a new browser window. (Note: OpenRefine doesn’t operate as a desktop application, but instead uses a browser window. A black dialogue box needs to remain open for the period you are using Open Refine.)
 
 You will also need to download the dataset for the workshop by clicking [HERE](https://github.com/BrockDSL/Step-by-Step-guide-to-Open-Refine/raw/master/Open%20Refine%20Data%20Set.xlsx)
 
@@ -24,7 +24,7 @@ You will also need to download the dataset for the workshop by clicking [HERE](h
 
 # 3.What are Data Types?
 
-Data in OpenRefine is auto-sorted into different data types. Since each data type has some slightly different functionality, you may want to understand each data type and its usage. Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value. Understanding data types ensures that data is collected in the preferred format and the value of each property is as expected. Please click on the headings below to expand the title and learn more about the different data types.
+Data in Open Refine is auto-sorted into different data types. Since each data type has some slightly different functionality, you may want to understand each data type and its usage. Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value. Understanding data types ensures that data is collected in the preferred format and the value of each property is as expected. Please click on the headings below to expand the title and learn more about the different data types.
 
 <iframe src="https://h5pstudio.ecampusontario.ca/h5p/42564/embed" width="993" height="537" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -60,15 +60,17 @@ The following is the description of each variable:
 ### Step 1: Create a project
 
 * In your browser for the OpenRefine tab, choose to create a project from and select “This Computer” under the **Get data from** heading. 
-* Choose the file “Open Refine Data Set” that we downloaded during setup instructions and Click on Next. 
+* Choose the file “Open Refine Data Set” that we downloaded during setup instructions and click on "Next". 
 * Click “Create Project”
 
  ![WINDOW TO GO NEXT](1.jpg)
  
 * You will see your project has been created. 
-* To see all 29 records, go to the top and click on **50** under "Show as" records.
+* To see all 29 records, go to the top and click on **50** under "Show as" rows.
 
- ![ALL RECORDS](1.2.jpg) 
+**Rows** display your data in individual lines, each numbered separately, while **Records** display your data in multi-line groupings depending on the relationships between the data in those lines.
+
+ ![ALL Rows](1.2.jpg) 
  
  ----
 
