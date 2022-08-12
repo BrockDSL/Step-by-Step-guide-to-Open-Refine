@@ -91,7 +91,9 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
 4) Facet by blank - A binary facet of ‘true’ or ‘false’. Rows appear in the ‘true’ facet if they have no data present in that column. This is useful                    when looking for rows missing key data.
 
-**Let's create a Customized Facet.**
+**Let's create a Facet.**
+
+* We will first create a customized facet.
 * Go to the “Customer Name” Column.  
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer Name” column. 
 * Click on **true** to see the duplicates. 
@@ -101,6 +103,14 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * Click on "Remove All" tab, in the left-hand panel to close the facets.
 
  ![](1.3.jpg)
+ 
+ * Now we will create another facet.
+ * We may want to remove the “bad values” or the “outliers”. Outliers are observations that are very different from the majority of the observations in the data set. Missing values are outliers in our data set.
+* Go to the “Customer First Name” Column.  
+* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a panel on the left-hand side, with a true and false value.  
+* Click on **true** to see the rows with empty values. 
+* We will not be using the empty data, so click on false. You will see 28 rows. We will use these 28 rows for our further analysis. 
+
 ---
 
 **Step 3: Using GREL**
@@ -198,28 +208,11 @@ OpenRefine features several functions for performing commonly needed transformat
 
 ----
 
-**Step 6: Delete rows with blank cells**
-
-* We may want to remove the “bad values” or the “outliers”. 
-* Go to the “Customer First Name” Column.  
-* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a panel on the left-hand side, with a true and false value.  
-* Click on **true** to see the rows with empty values. 
-* We will not be using the empty data, so click on false. You will see 21 rows. 
-
-![Exploratory Analysis](6.jpg)
-
-**Step 8: Exploratory Analysis**
-
-We could use OpenRefine to do some basic exploratory analysis. For example, we are interested in examining the year in which most vehicle belongs. Please follow the steps below for exploratory analysis. 
-* Go to the “VEHICLEYEAR” Column. Click on the small triangle at the column name. Use “Sort”
-* A dialogue box will appear, select **numbers** under sort cell values as and make sure the smallest first box is checked. 
-* Press “OK”
-* Go to the “VEHICLEYEAR” Column.  
-* Click on the small triangle at the column name. Use “Facet” -> “Numeric Facet” to filter the records.
+**Step 5: Clustering
 
 ![Exploratory Analysis](8.jpg)
 
-**Step 9: Export and share**
+**Step 6: Export and share**
 
 Finally, we have transformed a CSV format messy data into a nice table. We can export the resulting table into a variety of formats including Excel and use the “Permalink” in the left-upper part to share the workspace with others.
 
