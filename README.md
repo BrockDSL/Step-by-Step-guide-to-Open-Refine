@@ -57,7 +57,7 @@ The following is the description of each variable:
 
 ----
 
-**Step 1: Create a project**
+## Step 1: Create a project
 
 * In your browser for the OpenRefine tab, choose to create a project from and select “This Computer” under the **Get data from** heading. 
 * Choose the file “Open Refine Data Set” that we downloaded during setup instructions and Click on Next. 
@@ -72,7 +72,7 @@ The following is the description of each variable:
  
  ----
 
-**Step 2: Using Facet**
+## Step 2: Using Facet
 
 A *‘Facet’* groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time. There are different kinds of facets such as text facet, numeric facet, timeline facet, scatterplot facet, and customize facet. 
 
@@ -116,7 +116,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
 ----
 
-**Step 3: Using GREL**
+## Step 3: Using GREL
 
 GREL, or General Refine Expression Language, is a language used to work with and manipulate data, cells, and columns in OpenRefine. GREL can be utilized in a number of places in OpenRefine including:
 
@@ -182,7 +182,7 @@ Now we will see use another method to transform the data using GREL. You will se
 
 ----
 
-**Step 4: Common transforms**
+## Step 4: Common transforms
 
 OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. For quick reference, consult the list of transformations and their function below:-
 
@@ -211,7 +211,7 @@ OpenRefine features several functions for performing commonly needed transformat
 
 ----
 
-**Step 5: Clustering**
+## Step 5: Clustering
 
 Clustering is defined in OpenRefine as "finding groups of different values that may be alternative representations of the same thing." Clustering works by performing "fuzzy matching" on the values within a selected column using the algorithm of your choice to determine if cell values "look similar" enough to be possible matches. 
 There are two types of algorithms supported by OpenRefine:
@@ -237,7 +237,7 @@ There are two types of algorithms supported by OpenRefine:
 
 ----
 
-**Step 6: Export and share**
+## Step 6: Export and share
 
 Finally, we have transformed a CSV format messy data into a nice table. We can export the resulting table into a variety of formats including Excel and use the “Permalink” in the left-upper part to share the workspace with others.
 
