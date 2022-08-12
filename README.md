@@ -169,13 +169,31 @@ Now we will see use another method to transform the data using GREL. You will se
 
 ---
 
-**Step 5: Common transforms**
+**Step 4: Common transforms**
+
+OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. For quick reference, consult the list of transformations and their function below:-
+
+| Transformation | Function |
+| ----------- | ----------- |
+| Trim leading and trailing whitespace| Removes extra spaces before and after the value in each cell in the selected column.|
+| Collapse consecutive whitespace| Removes extra spaces between individual strings within a cell value in the selected column.|
+| Unescape HTML entities | Removes HTML strings indicating particular characters (e.g., “&” vs “&amp;amp;”).|
+| Replace Smart quotes with ascii | Replaces Smart quotes to their ASCII (e.g., ' and ")|
+| To titlecase | Changes the first letter of all words within a cell value to an uppercase letter.|
+| To uppercase| Changes all letters of all words within a cell value to uppercase letters.|
+| To lowercase | Changes all letters of all words within a cell value to lowercase letters.|
+| To number | Changes the cell format to number.|
+| To date | Changes the cell format to date.|
+| To text | Changes the cell format to text.|
+| To null| Changes the cell format to null.|
+| To empty string | Changes the cell format to an empty string.|
+
+**Let’s use common transforms**
 
 * Go to column “Province”, Click on the small triangle at the column name.
 * OpenRefine allows for easy transformation by providing a set of functionalities under “Edit cell” -> “Common transforms”.
-* Select **to uppercase** to make all the provinces in the capital. 
+* Select **to uppercase** to make all the provinces in the capital.
 
-![Exploratory Analysis](5.jpg)
 
 **Step 6: Delete rows with blank cells**
 
