@@ -59,14 +59,14 @@ The following is the description of each variable:
 
 ### Step 1: Create a project
 
-* In your browser for the OpenRefine tab, choose to create a project from and select “This Computer” under the **Get data from** heading. 
-* Choose the file “Open Refine Data Set” that we downloaded during setup instructions and click on "Next". 
-* Click “Create Project”
+* In OpenRefine, navigate to the menu on the left-hand side of the browser and select the “Create Project” tab. Choose the data file we downloaded during set up instructions. 
+* Click "Next". The next screen you’ll see is a preview screen. This shows you how OpenRefine sees and your data and allows you to change settings before you import it. We’ll leave the settings as it is for this module.
+* Now hit the “Create Project” button on the top right hand side of the screen to finish importing.
 
  ![WINDOW TO GO NEXT](1.jpg)
  
 * You will see your project has been created. 
-* To see all 29 records, go to the top and click on **50** under "Show as" rows.
+* To see more of the data, change the number of rows shown by changing the settings at the top of the screen to show **50** rows instead of the default 10.
 
 **Rows** display your data in individual lines, each numbered separately, while **Records** display your data in multi-line groupings depending on the relationships between the data in those lines.
 
