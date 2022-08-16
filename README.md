@@ -16,7 +16,7 @@ In preparation for this module, you will need to download and unzip the Open Ref
 * Save the file to your computer in a location that you have access to
 * Unzip the file using your preferred zipping tool (right click on the folder and choose the program to unzip with like 7zip or WinZip).
 * (Optional) Make a shortcut on your desktop by opening the folder, right clicking openrefine.exe (blue gem symbol) and clicking "create shortcut" (you may need to move the new shortcut to your desktop manually depending on your operating system).
-* After you launch OpenRefine, it will open a black dialogue box with codes and it should automatically open a new browser window. (Note: OpenRefine doesn’t operate as a desktop application, but instead uses a browser window. A black dialogue box needs to remain open for the period you are using Open Refine.)
+* After you launch Open Refine by double clicking on the blue gem icon, it will open a black dialogue box with codes and it should automatically open a new browser window. (Note: Open Refine doesn’t operate as a desktop application, but instead uses a browser window. A black dialogue box needs to remain open for the period you are using Open Refine.)
 
 You will also need to download the dataset for the workshop by clicking [HERE](https://github.com/BrockDSL/Step-by-Step-guide-to-Open-Refine/raw/master/Open%20Refine%20Data%20Set.xlsx)
 
@@ -38,9 +38,9 @@ Data in Open Refine is auto-sorted into different data types. Since each data ty
 
 # 4.Now let’s practice cleaning some data.
 
-Almost every dataset you’ll encounter will be messy. Often, there are inconsistencies in the way the data is entered has misspellings, extra spaces, and unknown values which can make the data difficult to analyze later. It’s important to clean your data before trying to use it in any way. In this module, we’ll learn how to clean up inconsistent data with a powerful program called OpenRefine.
+Almost every dataset you’ll encounter will be messy. Inconsistencies in how data is entered, such as misspellings, extra spaces, and unknown values, can make the data difficult to analyse later. It’s important to clean your data before trying to use it in any way. In this module, we’ll learn how to clean up inconsistent data with a powerful program called OpenRefine.
 
-The dataset that will be used in this workshop details data collected by an imaginary car insurance company.  The data is still raw and thus needs to be cleaned up by fixing incorrect values, dealing with missing values, and removing values that are not important for the analysis we want to do. Our job is to remove the erroneous values and improve the quality of the data by using Open Refine. 
+The dataset that will be used in this module details data collected by an imaginary car insurance company.  The data is still raw and thus needs to be cleaned up by fixing incorrect values, dealing with missing values, and removing values that are not important for the analysis we want to do. Our job is to remove the erroneous values and improve the quality of the data by using Open Refine. 
 
 The following is the description of each variable:
 
@@ -60,7 +60,7 @@ The following is the description of each variable:
 ### Step 1: Create a project
 
 * In OpenRefine, navigate to the menu on the left-hand side of the browser and select the “Create Project” tab. Choose the data file we downloaded during set up instructions. 
-* Click "Next". The next screen you’ll see is a preview screen. This shows you how OpenRefine sees and your data and allows you to change settings before you import it. We’ll leave the settings as it is for this module.
+* Click "Next". The next screen you’ll see is a preview screen. This shows you how OpenRefine sees your data and allows you to change settings before you import it. We’ll leave the settings as it is for this module.
 * Now hit the “Create Project” button on the top right hand side of the screen to finish importing.
 
  ![WINDOW TO GO NEXT](1.jpg)
