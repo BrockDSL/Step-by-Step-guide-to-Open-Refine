@@ -226,8 +226,9 @@ There are two types of algorithms supported by OpenRefine:
 
 * Go to the column “VEHICLEMAKE” and click the arrow button on the column header, then select the “Edit cells” option and choose “Cluster and edit.”
 * A clustering window will open. In the Clustering window, you will see following options:-
-   -At the top of the window is where you can choose the type of algorithm to run.
-   -In the center of the window is a list of the suggested clusters, the current values, and suggested new value.
+
+    - At the top of the window is where you can choose the type of algorithm to run.
+    - In the center of the window is a list of the suggested clusters, the current values, and suggested new value.
 * Set the **Method** to “key collision”.
 * Go to the **Key Function** option and click on the downward arrow. A drop-down menu will open. From the drop-down menu, select “metaphone3”. 
 
