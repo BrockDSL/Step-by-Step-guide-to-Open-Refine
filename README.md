@@ -114,7 +114,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * Go to the “Customer First Name” Column.  
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a panel on the left-hand side, with a true and false value.  
 * Click on **true** to see the rows with empty values. 
-* We will not be using the empty data, so click on false. You will see 28 rows. We will use these 28 rows for our further analysis. 
+* We will not be using the empty data, so click on false. You will see 28 rows. We will use these 28 rows to further clean up our data. 
 
 ----
 
@@ -167,7 +167,7 @@ Please follow the below-mentioned procedure to add columns using split string:-
 
 * Press “OK”
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
-* To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. You will have **Customer Last Name** and **Customer First Name** columns for further analysis. 
+* To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. 
 
 ![Transformed into customer first and last name](3.2.jpg)
 
