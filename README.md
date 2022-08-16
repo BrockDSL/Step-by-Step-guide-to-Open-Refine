@@ -229,7 +229,7 @@ There are two types of algorithms supported by OpenRefine:
 
     - At the top of the window is where you can choose the type of algorithm to run.
     - In the center of the window is a list of the suggested clusters, the current values, and suggested new value.
-* Set the **Method** to “key collision”.
+* Go to the **Method** option and click on the downward arrow. A drop-down menu will open. From the drop-down menu, select “key collision”.
 * Go to the **Key Function** option and click on the downward arrow. A drop-down menu will open. From the drop-down menu, select “metaphone3”. 
 
 ![Clustering window](5.jpg)
