@@ -113,7 +113,7 @@ Please follow the below-mentioned procedure to add columns using split string:-
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
 * To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. 
 
-
+![](CustomerNameRemoved.jpg)
 
 Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand. We don't want those values, so we will remove the /TRUCK and /VAN values from the cells by transforming the cell contents using GREL.” Replace command works in the following way:-
 
@@ -136,6 +136,8 @@ Please follow the below-mentioned procedure to replace all of the instances of /
 ![](3.3.jpg)
 
 * You will see your column “VEHICLEMAKE” has been transformed. 
+
+![](Vehiclemake.jpg)
 
 ----
 
@@ -169,15 +171,19 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer Name” column. 
 * Click on **true** to see the duplicates. 
 
+ ![](TrueDuplicate.jpg)
  
 * We will not be using the duplicate data, so click on false. You will see 24 rows. We will use these 24 rows to further clean up our data. 
 
+ ![](FalseDuplicate.jpg)
  
  <ins>Now we will create facet for missing values.</ins>
  
  * We may want to remove the “bad values” or the “outliers”. Outliers are observations that are very different from the majority of the observations in the data set. Missing values are outliers in our data set.
 * Go to the “Customer First Name” Column.  
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a second panel on the left-hand side, with a true and false value.  
+
+![](SecondPanel.jpg)
 
 * Click on **true** to see the rows with empty values. 
 * We will not be using the empty data, so click on false. You will see 23 rows. We will use these 23 rows to further clean up our data. 
