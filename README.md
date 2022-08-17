@@ -73,6 +73,70 @@ The following is the description of each variable:
  ![ALL Rows](1.2.jpg) 
  
  ----
+ 
+ ### Step 2: Using GREL
+
+GREL, or General Refine Expression Language, is a language used to work with and manipulate data, cells, and columns in OpenRefine. GREL can be utilized in a number of places in OpenRefine including:
+
+* Adding a column based on another column.
+* Adding a column by fetching URLs.
+* Transforming cell contents.
+* Creating custom facets (both number and text).
+
+*NOTE: GREL is case-sensitive, meaning that (for example) "Match" and "match" will not produce the same result.*
+
+<ins>***SYNTAX***</ins>
+
+GREL was designed to resemble JavaScript and generally uses “in sequence” syntax with a dot between each argument. For example:
+
+**value.replace('cat’, ‘dog')**:- In this case, the values of the current column will be searched for the string ‘cat’ which will be replaced by the string ‘dog’.
+
+GREL includes a specific vocabulary for referring to cell values:
+
+* value = the values in the current column.
+* cells['Column2'].value = the values in the specified column, ‘Column2’
+* A string can be written with either single or double quotation marks.
+
+**Let's use GREL to clean our data**
+
+We will add another column using the “Customer Name” column. We will extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Splitting works in the following way:-
+
+**value.split(";")[0]**
+
+The first part (value.split(";")) will split the value into an array (list) using a semicolon as the character to split it up. The [0] directs OpenRefine to take the first item from the list created by the 'split' command. (and using [1] instead would take the second value, [2] the third, etc.)
+
+Please follow the below-mentioned procedure to add columns using split string:-
+
+* Go to the “Customer Name” Column. Click on the small triangle at the column name. Use “Edit Column” -> “Add column based on this column”.
+* A dialogue box will appear. Under the new column name, type: **Customer First Name**. 
+* Make sure, "On error" is **set to blank**.
+* Under the expression type: <mark> split(value,'')[0]</mark>
+
+
+* Press “OK”
+* You will see the new column name, **Customer First Name** is added right next to the “Customer Name” column. 
+* Repeat first 2 procedures, but for the new column name, type: **Customer Last Name**. 
+* Under the expression type: <mark>split(value,' ')[1]</mark>
+
+
+* Press “OK”
+* You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
+* To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. 
+
+![Transformed into customer first and last name](3.2.jpg)
+
+Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand, which does not make sense. We will remove the */TRUCK and /VAN* from the cell using the GREL statement. 
+* Go to column name “VEHICLEMAKE”
+* Select “Edit Cell” -> “Transform” option. 
+* A dialogue box will appear to write the GREL statement. Type or paste-  <mark>value.replace(" /VAN","").replace(" /TRUCK","") </mark> and press OK.
+
+![](3.3.jpg)
+
+* You will see your column “VEHICLEMAKE” has been transformed. 
+
+![GREL Replace column](3.4.jpg)
+
+----
 
 ### Step 2: Using Facets
 
@@ -105,84 +169,17 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
  ![LEFT HAND PANEL FOR FACET](2.1.jpg)
  
-* Click on "Remove All" tab, in the left-hand panel to close the facets.
+* We will not be using the duplicate data, so click on false. You will see 24 rows. We will use these 24 rows to further clean up our data. 
 
  ![LEFT HAND PANEL FOR FALSE VALUES](1.3.jpg)
  
  <ins>Now we will create facet for missing values.</ins>
  * We may want to remove the “bad values” or the “outliers”. Outliers are observations that are very different from the majority of the observations in the data set. Missing values are outliers in our data set.
-* Go to the “Customer First Name” Column.  
-* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a panel on the left-hand side, with a true and false value.  
+* Go to the “Customer Name” Column.  
+* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a second panel on the left-hand side, with a true and false value.  
+
 * Click on **true** to see the rows with empty values. 
-* We will not be using the empty data, so click on false. You will see 28 rows. We will use these 28 rows to further clean up our data. 
-
-![Blank Values](2.3.jpg)
-
-----
-
-### Step 3: Using GREL
-
-GREL, or General Refine Expression Language, is a language used to work with and manipulate data, cells, and columns in OpenRefine. GREL can be utilized in a number of places in OpenRefine including:
-
-* Adding a column based on another column.
-* Adding a column by fetching URLs.
-* Transforming cell contents.
-* Creating custom facets (both number and text).
-
-*NOTE: GREL is case-sensitive, meaning that (for example) "Match" and "match" will not produce the same result.*
-
-<ins>***SYNTAX***</ins>
-
-GREL was designed to resemble JavaScript and generally uses “in sequence” syntax with a dot between each argument. For example:
-
-**value.replace('cat’, ‘dog')**:- In this case, the values of the current column will be searched for the string ‘cat’ which will be replaced by the string ‘dog’.
-
-GREL includes a specific vocabulary for referring to cell values:
-
-* value = the values in the current column.
-* cells['Column2'].value = the values in the specified column, ‘Column2’
-* A string can be written with either single or double quotation marks.
-
-**Let's use GREL to clean our data**
-
-We will add another column using the “Customer Name” column. We would extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Splitting works in the following way:-
-
-**value.split(";")[0]**
-
-The first part (value.split(";")) will split the value into an array (list) using a semicolon as the character to split it up. The [0] directs OpenRefine to take the first item from the list created by the 'split' command. (and you can guess, using [1] instead would take the second value, [2] the third, etc.)
-
-Please follow the below-mentioned procedure to add columns using split string:-
-
-* Go to the “Customer Name” Column. Click on the small triangle at the column name. Use “Edit Column” -> “Add column based on this column”.
-* A dialogue box will appear. Under the new column name, type: **Customer First Name**. 
-* Make sure, on error is set to blank.
-* Under the expression type: <mark> split(value,'')[0]</mark>
-
- ![GREL WINDOW FOR CODE OF FIRST NAME](3.jpg)
-
-* Press “OK”
-* You will see the new column name, **Customer First Name** is added right next to the “Customer Name” column. 
-* Repeat first 2 procedures, but for the new column name, type: **Customer Last Name**. 
-* Under the expression type: <mark>split(value,' ')[1]</mark>
-
-![GREL WINDOW FOR CODE OF LAST NAME](3.1.jpg)
-
-* Press “OK”
-* You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
-* To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. 
-
-![Transformed into customer first and last name](3.2.jpg)
-
-Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand, which does not make sense. We will remove the */TRUCK and /VAN* from the cell using the GREL statement. 
-* Go to column name “VEHICLEMAKE”
-* Select “Edit Cell” -> “Transform” option. 
-* A dialogue box will appear to write the GREL statement. Type or paste-  <mark>value.replace(" /VAN","").replace(" /TRUCK","") </mark> and press OK.
-
-![](3.3.jpg)
-
-* You will see your column “VEHICLEMAKE” has been transformed. 
-
-![GREL Replace column](3.4.jpg)
+* We will not be using the empty data, so click on false. You will see 23 rows. We will use these 23 rows to further clean up our data. 
 
 ----
 
