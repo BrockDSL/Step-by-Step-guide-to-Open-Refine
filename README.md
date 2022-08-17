@@ -74,7 +74,7 @@ The following is the description of each variable:
  
  ----
  
- ### Step 2: Using GREL
+### Step 2: Using GREL
 
 GREL, or General Refine Expression Language, is a language used to work with and manipulate data, cells, and columns in OpenRefine. GREL can be utilized in a number of places in OpenRefine including:
 
@@ -111,7 +111,6 @@ Please follow the below-mentioned procedure to add columns using split string:-
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
 * To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. 
 
-![Transformed into customer first and last name](3.2.jpg)
 
 Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand. We don't want those values, so we will remove the /TRUCK and /VAN values from the cells by transforming the cell contents using GREL.” Replace command works in the following way:-
 
@@ -134,8 +133,6 @@ Please follow the below-mentioned procedure to replace all of the instances of /
 ![](3.3.jpg)
 
 * You will see your column “VEHICLEMAKE” has been transformed. 
-
-![GREL Replace column](3.4.jpg)
 
 ----
 
@@ -164,19 +161,19 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 **Let's create a Facet.**
 
 <ins>We will first create a facet for duplicate values.</ins>
-* Go to the “Customer Name” Column.  
+
+* Go to the “Customer First Name” Column.  
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer Name” column. 
 * Click on **true** to see the duplicates. 
 
- ![LEFT HAND PANEL FOR FACET](2.1.jpg)
  
 * We will not be using the duplicate data, so click on false. You will see 24 rows. We will use these 24 rows to further clean up our data. 
 
- ![LEFT HAND PANEL FOR FALSE VALUES](1.3.jpg)
  
  <ins>Now we will create facet for missing values.</ins>
+ 
  * We may want to remove the “bad values” or the “outliers”. Outliers are observations that are very different from the majority of the observations in the data set. Missing values are outliers in our data set.
-* Go to the “Customer Name” Column.  
+* Go to the “Customer First Name” Column.  
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a second panel on the left-hand side, with a true and false value.  
 
 * Click on **true** to see the rows with empty values. 
@@ -208,8 +205,6 @@ OpenRefine features several functions for performing commonly needed transformat
 * Go to column “Province”, Click on the small triangle at the column name.
 * OpenRefine allows for easy transformation by providing a set of functionalities under “Edit cell” -> “Common transforms”.
 * Select **to uppercase** to make all the provinces in the capital.
-
-![Common transform for uppercase](4.jpg)
 
 ----
 
