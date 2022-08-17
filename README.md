@@ -85,18 +85,6 @@ GREL, or General Refine Expression Language, is a language used to work with and
 
 *NOTE: GREL is case-sensitive, meaning that (for example) "Match" and "match" will not produce the same result.*
 
-<ins>***SYNTAX***</ins>
-
-GREL was designed to resemble JavaScript and generally uses “in sequence” syntax with a dot between each argument. For example:
-
-**value.replace('cat’, ‘dog')**:- In this case, the values of the current column will be searched for the string ‘cat’ which will be replaced by the string ‘dog’.
-
-GREL includes a specific vocabulary for referring to cell values:
-
-* value = the values in the current column.
-* cells['Column2'].value = the values in the specified column, ‘Column2’
-* A string can be written with either single or double quotation marks.
-
 **Let's use GREL to clean our data**
 
 We will add another column using the “Customer Name” column. We will extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Splitting works in the following way:-
@@ -125,7 +113,20 @@ Please follow the below-mentioned procedure to add columns using split string:-
 
 ![Transformed into customer first and last name](3.2.jpg)
 
-Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand, which does not make sense. We will remove the */TRUCK and /VAN* from the cell using the GREL statement. 
+Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand. We don't want those values, so we will remove the /TRUCK and /VAN values from the cells by transforming the cell contents using GREL.” Replace command works in the following way:-
+
+**value.replace('cat’, ‘dog')**
+
+In this case, the values of the current column will be searched for the string ‘cat’ which will be replaced by the string ‘dog’.
+
+GREL includes a specific vocabulary for referring to cell values:
+
+* value = the values in the current column.
+* cells['Column2'].value = the values in the specified column, ‘Column2’
+* A string can be written with either single or double quotation marks.
+
+Please follow the below-mentioned procedure to replace all of the instances of /Truck and /Van with nothing:-
+
 * Go to column name “VEHICLEMAKE”
 * Select “Edit Cell” -> “Transform” option. 
 * A dialogue box will appear to write the GREL statement. Type or paste-  <mark>value.replace(" /VAN","").replace(" /TRUCK","") </mark> and press OK.
