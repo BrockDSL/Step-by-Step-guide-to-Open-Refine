@@ -100,16 +100,19 @@ Please follow the below-mentioned procedure to add columns using split string:-
 * Make sure, "On error" is **set to blank**.
 * Under the expression type: <mark> split(value,'')[0]</mark>
 
+![Customer First Name Grel window](3.jpg)
 
 * Press “OK”
 * You will see the new column name, **Customer First Name** is added right next to the “Customer Name” column. 
 * Repeat first 2 procedures, but for the new column name, type: **Customer Last Name**. 
 * Under the expression type: <mark>split(value,' ')[1]</mark>
 
+![Customer Last Name Grel window](3.1.jpg)
 
 * Press “OK”
 * You will see the new column name, **Customer Last Name** is added right next to the “Customer Name” column. 
 * To remove the column “ Customer Name”, click on the small triangle on "Customer Name" column. Select "Edit Column" -> "Remove this column" option. The " Customer Name" column will be removed. 
+
 
 
 Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand. We don't want those values, so we will remove the /TRUCK and /VAN values from the cells by transforming the cell contents using GREL.” Replace command works in the following way:-
