@@ -116,6 +116,8 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * Click on **true** to see the rows with empty values. 
 * We will not be using the empty data, so click on false. You will see 28 rows. We will use these 28 rows to further clean up our data. 
 
+![Blank Values](2.3.jpg)
+
 ----
 
 ### Step 3: Using GREL
