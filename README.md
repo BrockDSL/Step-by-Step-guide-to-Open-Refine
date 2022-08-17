@@ -138,7 +138,7 @@ Now we will see use another method to transform the data using GREL. You will se
 
 ----
 
-### Step 2: Using Facets
+### Step 3: Using Facets
 
 A *‘Facet’* groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time. There are different kinds of facets such as text facet, numeric facet, timeline facet, scatterplot facet, and customize facet. 
 
