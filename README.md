@@ -183,7 +183,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * Go to the “Customer First Name” Column.  
 * Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a second panel on the left-hand side, with a true and false value.  
 
-<center>![](SecondPanel.jpg)</center>
+![](SecondPanel.jpg)
 
 * Click on **true** to see the rows with empty values. 
 * We will not be using the empty data, so click on false. You will see 23 rows. We will use these 23 rows to further clean up our data. 
