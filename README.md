@@ -74,15 +74,15 @@ The following is the description of each variable:
  
  ----
 
-### Step 2: Using Facet
+### Step 2: Using Facets
 
 A *‘Facet’* groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time. There are different kinds of facets such as text facet, numeric facet, timeline facet, scatterplot facet, and customize facet. 
 
  ![TYPES OF FACET](2.jpg)
 
-* **Text facet** groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left-hand panel in the OpenRefine interface.
+* **Text facets** group all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left-hand panel in the OpenRefine interface.
 
-* **Numeric** and **Timeline facets** display graphs instead of lists of values. The graph includes ‘drag and drops’ controls you can use to set a start and end range to filter the data displayed.
+* **Numeric** and **Timeline facets** display graphs instead of lists of values. The graph includes ‘drag and drop’ controls you can use to set a start and end range to filter the data displayed.
 
 * **Scatterplot facets** display a visual representation of two related sets of numeric data.
 
