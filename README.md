@@ -194,7 +194,8 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
 ### Step 4: Common transforms
 
-OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. Common transforms just serve as shortcuts; in reality, GREL commands are being run on the cells in a manner similar to that which was accomplished in the previous stage using the "Transform" tool in **Step 2**.For quick reference, consult the list of transformations and their function below:-
+OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. Common transforms just serve as shortcuts; in reality, GREL commands are being run on the cells in a manner similar to that which was accomplished in the previous stage using the "Transform" tool in **Step 2**. 
+For quick reference, consult the list of transformations and their function below:-
 
 | Transformation | Function |
 | ----------- | ----------- |
