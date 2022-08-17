@@ -188,11 +188,13 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 * Click on **true** to see the rows with empty values. 
 * We will not be using the empty data, so click on false. You will see 23 rows. We will use these 23 rows to further clean up our data. 
 
+![](23Rows.jpg)
+
 ----
 
 ### Step 4: Common transforms
 
-OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. For quick reference, consult the list of transformations and their function below:-
+OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. Common transforms just serve as shortcuts; in reality, GREL commands are being run on the cells in a manner similar to that which was accomplished in the previous stage using the "Transform" tool in **Step 2**.For quick reference, consult the list of transformations and their function below:-
 
 | Transformation | Function |
 | ----------- | ----------- |
@@ -214,6 +216,8 @@ OpenRefine features several functions for performing commonly needed transformat
 * Go to column “Province”, Click on the small triangle at the column name.
 * OpenRefine allows for easy transformation by providing a set of functionalities under “Edit cell” -> “Common transforms”.
 * Select **to uppercase** to make all the provinces in the capital.
+
+![](CommonTransform.jpg)
 
 ----
 
