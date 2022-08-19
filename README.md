@@ -241,13 +241,13 @@ There are two types of algorithms supported by OpenRefine:
 * Go to the **Method** option and click on the downward arrow. A drop-down menu will open. From the drop-down menu, select “key collision”.
 * Go to the **Key Function** option and click on the downward arrow. A drop-down menu will open. From the drop-down menu, select “metaphone3”. 
 
-![Clustering window](5.jpg)
+
 
 * You will see a cluster for HONDA and HOND. The HOND is misspelled, and it should have been HONDA instead of HOND. 
 * Select the “Merge?” box and confirm that the text box in the “New Cell Value” column is HONDA. 
 * When you are ready, select “Merge Selected & Close.” “Merge Selected & Close” edits the selected values and then closes out of the Clustering window. 
 
-![Clustered column picture](5.2.jpg)
+
 
 ----
 
