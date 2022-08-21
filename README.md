@@ -224,12 +224,12 @@ For quick reference, consult the list of transformations and their function belo
 
 ### Step 5: Clustering
 
-Clustering is defined in OpenRefine as "finding groups of different values that may be alternative representations of the same thing." Clustering works by performing "fuzzy matching" on the values within a selected column using the algorithm of your choice to determine if cell values "look similar" enough to be possible matches. 
-There are two types of algorithms supported by OpenRefine:
+Clustering is defined in OpenRefine as "finding groups of different values that may be alternative representations of the same thing." OpenRefine goes through the data in the column you’ve selected and uses algorithms to try to recognize values that might be variations of the same thing. It then allows you to group or merge them together under one consistent name of your choosing.
+Mentioned below are the two types of algorithms supported by OpenRefine:
 
-* Key collide: The idea behind "Key Collision" methods is to create an alternative representation of a value (a "key") that contains only the most valuable or meaningful part of the string and "buckets" (or "bin" as it's described inside OpenRefine's code) together different strings based on the fact that their key is the same (hence the name "key collision"). There are six key collide methods – fingerprint, n-gram fingerprint, metaphone3, cologne phonetics, Daitch-Moktoff, and Beider-Morse. 
+* Key collide: The purpose of "Key Collision" methods is to generate a different representation of a value (a "key") that only includes the meaningful portion of the string when their keys coincide (hence the name "key collision"). There are six main collision techniques: the fingerprint, the n-gram fingerprint, the metaphone 3, the cologne phonetics, the Daitch-Moktoff, and the Beider-Morse.
 
-* Closest neighbor: The Nearest Neighbor methods (also known as kNN), on the other hand, provide a parameter (the radius or k) that represents a distance threshold: any pair of strings that are closer than a certain value will be binned together.
+* Closest neighbor: Under Closest Neighbor techniques (otherwise called kNN), any sets of strings that are nearer than a specific worth will be binned together.
 
 **Let’s  use clustering**
 
