@@ -85,7 +85,7 @@ GREL, or General Refine Expression Language, is a language used to work with and
 
 *NOTE: GREL is case-sensitive, meaning that (for example) "Match" and "match" will not produce the same result.*
 
-**Let's use GREL to clean our data**
+<center>**Let's use GREL to clean our data**</center>
 
 We will add another column using the “Customer Name” column. We will extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Splitting works in the following way:-
 
