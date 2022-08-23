@@ -2,13 +2,13 @@
 ![Tool Logo](Intro-Open-Refine.jpg)
 
 
-## 1.Introduction to Open Refine
+# 1.Introduction to Open Refine
 
 Open Refine is an open-source desktop application for data cleanup and transformation to other formats, an activity commonly known as data wrangling. It is similar to spreadsheet applications, and can handle spreadsheet file formats such as CSV, but it behaves more like a database.
 
 ----
 
-## 2.Setup Instructions
+# 2.Setup Instructions
 In preparation for this module, you will need to download and unzip the Open Refine package. The steps to do this are:
 
 * Go to the [downloads page for Open Refine](https://openrefine.org/download.html)
@@ -22,7 +22,7 @@ You will also need to download the dataset for the workshop by clicking [HERE](h
 
 ----
 
-## 3.What are Data Types?
+# 3.What are Data Types?
 
 Data in Open Refine is auto-sorted into different data types. Since each data type has some slightly different functionality, you may want to understand each data type and its usage. Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value. Understanding data types ensures that data is collected in the preferred format and the value of each property is as expected. Please click on the headings below to expand the title and learn more about the different data types.
 
@@ -30,7 +30,7 @@ Data in Open Refine is auto-sorted into different data types. Since each data ty
 
 ----
 
-**3.1.Take quiz to test your knowledge of Data Types.**
+## 3.1.Take quiz to test your knowledge of Data Types.
 
 <iframe src="https://h5pstudio.ecampusontario.ca/h5p/42567/embed" width="993" height="449" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -57,7 +57,7 @@ The following is the description of each variable:
 
 ----
 
-### Step 1: Create a project
+**Step 1: Create a project**
 
 * In OpenRefine, navigate to the menu on the left-hand side of the browser and select the “Create Project” tab. Choose the data file we downloaded during set up instructions. 
 * Click "Next". The next screen you’ll see is a preview screen. This shows you how OpenRefine sees your data and allows you to change settings before you import it. We’ll leave the settings as it is for this module.
@@ -73,8 +73,8 @@ The following is the description of each variable:
  ![ALL Rows](1.2.jpg) 
  
  ----
- 
-### Step 2: Using GREL
+
+**Step 2: Using GREL**
 
 GREL, or General Refine Expression Language, is a language used to work with and manipulate data, cells, and columns in OpenRefine. GREL can be utilized in a number of places in OpenRefine including:
 
@@ -141,7 +141,7 @@ Please follow the below-mentioned procedure to replace all of the instances of /
 
 ----
 
-### Step 3: Using Facets
+**Step 3: Using Facets**
 
 A *‘Facet’* groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time. There are different kinds of facets such as text facet, numeric facet, timeline facet, scatterplot facet, and customize facet. 
 
@@ -192,7 +192,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
 ----
 
-### Step 4: Common transforms
+**Step 4: Common transforms**
 
 OpenRefine features several functions for performing commonly needed transformations to your data. Many of these transformations are intended for data cleaning purposes and can also be done by using regular expressions. Common transforms just serve as shortcuts; in reality, GREL commands are being run on the cells in a manner similar to that which was accomplished in the previous stage using the "Transform" tool in **Step 2**. 
 For quick reference, consult the list of transformations and their function below:-
@@ -222,7 +222,7 @@ For quick reference, consult the list of transformations and their function belo
 
 ----
 
-### Step 5: Clustering
+**Step 5: Clustering**
 
 Clustering is defined in OpenRefine as "finding groups of different values that may be alternative representations of the same thing." OpenRefine goes through the data in the column you’ve selected and uses algorithms to try to recognize values that might be variations of the same thing. It then allows you to group or merge them together under one consistent name of your choosing.
 Mentioned below are the two types of algorithms supported by OpenRefine:
@@ -251,7 +251,7 @@ Mentioned below are the two types of algorithms supported by OpenRefine:
 
 ----
 
-### Step 6: Export and share
+**Step 6: Export and share**
 
 Finally, we have transformed a CSV format messy data into a nice table. We can export the resulting table into a variety of formats including Excel and use the “Permalink” in the left-upper part to share the workspace with others.
 
