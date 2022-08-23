@@ -85,7 +85,7 @@ GREL, or General Refine Expression Language, is a language used to work with and
 
 *NOTE: GREL is case-sensitive, meaning that (for example) "Match" and "match" will not produce the same result.*
 
-**<center>Let's use GREL to clean our data</center>**
+**<ins>Let's use GREL to clean our data</ins>**
 
 We will add another column using the “Customer Name” column. We will extract the first name and last name of the customer. To do that, we use the “General Refine Expression Language (GREL)” to implement splitting. Splitting works in the following way:-
 
@@ -163,7 +163,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
     * Facet by blank - A binary facet of ‘true’ or ‘false’. Rows appear in the ‘true’ facet if they have no data present in that column. This is useful                    when looking for rows missing key data.
 
-**<center>Let's create a Facet.</center>**
+**<ins>Let's create a Facet.</ins>**
 
 <ins>We will first create a facet for duplicate values.</ins>
 
@@ -212,7 +212,7 @@ For quick reference, consult the list of transformations and their function belo
 | To null| Changes the cell format to null.|
 | To empty string | Changes the cell format to an empty string.|
 
-**<center>Let’s use common transforms</center>**
+**<ins>Let’s use common transforms</ins>**
 
 * Go to column “Province”, Click on the small triangle at the column name.
 * OpenRefine allows for easy transformation by providing a set of functionalities under “Edit cell” -> “Common transforms”.
@@ -231,7 +231,7 @@ Mentioned below are the two types of algorithms supported by OpenRefine:
 
 * Closest neighbor: Under Closest Neighbor techniques (otherwise called kNN), any sets of strings that are nearer than a specific worth will be binned together.
 
-**<center>Let’s  use clustering</center>**
+**<ins>Let’s  use clustering</ins>**
 
 * Go to the column “VEHICLEMAKE” and click the arrow button on the column header, then select the “Edit cells” option and choose “Cluster and edit.”
 * A clustering window will open. In the Clustering window, you will see following options:-
