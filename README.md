@@ -36,7 +36,7 @@ Data in Open Refine is auto-sorted into different data types. Since each data ty
 
 ----
 
-## 4.Now let’s practice cleaning some data.
+# 4.Now let’s practice cleaning some data.
 
 Almost every dataset you’ll encounter will be messy. Inconsistencies in how data is entered, such as misspellings, extra spaces, and unknown values, can make the data difficult to analyse later. It’s important to clean your data before trying to use it in any way. In this module, we’ll learn how to clean up inconsistent data with a powerful program called OpenRefine.
 
@@ -257,7 +257,7 @@ Finally, we have transformed a CSV format messy data into a nice table. We can e
 
 ----
 
-## 5.Resources
+# 5.Resources
 [Open Refine Manual](https://docs.openrefine.org/): The Open Refine manual is intended to walk you through every aspect of installing and using OpenRefine 3.5, including every interface function and feature.
 
 ----
