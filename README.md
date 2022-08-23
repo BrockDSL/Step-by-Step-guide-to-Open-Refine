@@ -168,7 +168,7 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 <ins>We will first create a facet for duplicate values.</ins>
 
 * Go to the “Customer First Name” Column.  
-* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”, we could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer Name” column. 
+* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Duplicates facet”. We could see in the left-hand panel, that there are 5 duplicate items ( true)  in the “Customer First Name” column. 
 * Click on **true** to see the duplicates. 
 
  ![](TrueDuplicate.jpg)
