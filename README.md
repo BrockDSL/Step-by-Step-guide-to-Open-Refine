@@ -115,7 +115,7 @@ Please follow the below-mentioned procedure to add columns using split string:-
 
 ![](CustomerNameRemoved.jpg)
 
-Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand. We don't want those values, so we will remove the /TRUCK and /VAN values from the cells by transforming the cell contents using GREL.” Replace command works in the following way:-
+Now we will see use another method to transform the data using GREL. You will see many values under the “VEHICLEMAKE” column which have */TRUCK and /VAN* along with its brand. We don't want those values, so we will remove the /TRUCK and /VAN values from the cells by transforming the cell contents using GREL's replace command.” Replace command works in the following way:-
 
 **value.replace('cat’, ‘dog')**
 
