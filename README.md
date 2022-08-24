@@ -185,14 +185,15 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
  
  * We may want to remove the “bad values” or the “outliers”. Outliers are observations that are very different from the majority of the observations in the data set. Missing values are outliers in our data set.
 * Go to the “Customer First Name” Column.  
-* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a second panel on the left-hand side, with a true and false value.  
+* Click on the small triangle at the column name. Use “Facet” -> “Customized facets” -> “Facet by blank”, we could see a panel on the left-hand side, with a true and false value.  
+* Click on **true** to see the rows with missing values. 
+* Go to the column name "All". 
+* Click on the small triangle at the column name. Use "Edit rows" -> "Remove matching rows".
+* All the blank values will be removed.
+* On the left-hand side panel, click on the "Remove All" button to close the facet. 
+* You will see 23 rows. We will use these 23 rows to further clean up our data.
 
-![](SecondPanel.jpg)
-
-* Click on **true** to see the rows with empty values. 
-* We will not be using the empty data, so click on false. You will see 23 rows. We will use these 23 rows to further clean up our data. 
-
-![](23Rows.jpg)
+![](BlankRemoved.jpg)
 
 ----
 
