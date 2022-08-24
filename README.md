@@ -223,7 +223,7 @@ For quick reference, consult the list of transformations and their function belo
 * OpenRefine allows for easy transformation by providing a set of functionalities under “Edit cell” -> “Common transforms”.
 * Select **to uppercase** to make all the provinces in the capital.
 
-![](CommonTransform.jpg)
+![](CommonTransform1.jpg)
 
 ----
 
@@ -252,7 +252,7 @@ Mentioned below are the two types of algorithms supported by OpenRefine:
 * Select the “Merge?” box and confirm that the text box in the “New Cell Value” column is HONDA. 
 * When you are ready, select “Merge Selected & Close.” “Merge Selected & Close” edits the selected values and then closes out of the Clustering window. 
 
-![](Clustering2.jpg)
+![](Clustering_3.jpg)
 
 ----
 
