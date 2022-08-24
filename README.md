@@ -190,7 +190,7 @@ We may want to remove the “bad values” or the “outliers”. Outliers are o
 * Click on **true** to see the rows with missing values. 
 * Go to the column name "All". 
 * Click on the small triangle at the column name. Use "Edit rows" -> "Remove matching rows".
-* All the blank values will be removed.
+* 1 entire row with the missing values will be removed.
 * On the left-hand side panel, click on the "Remove All" button to close the facet. 
 * You will see 23 rows. We will use these 23 rows to further clean up our data.
 
