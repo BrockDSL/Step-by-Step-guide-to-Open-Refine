@@ -173,10 +173,14 @@ A *‘Facet’* groups all the values that appear in a column, and then allows y
 
  ![](TrueDuplicate.jpg)
  
-* We will not be using the duplicate data, so click on false. You will see 24 rows. We will use these 24 rows to further clean up our data. 
+* Go to the column name "All". 
+* Click on the small triangle at the column name. Use "Edit rows" -> "Remove matching rows".
+* All the duplicate values will be removed.
+* On the left-hand side panel, click on the "Remove All" button to close the facet. 
+* You will see 24 rows. We will use these 24 rows to further clean up our data.
 
- ![](FalseDuplicate.jpg)
- 
+  ![](DuplicateRemoved.jpg)
+  
  <ins>Now we will create facet for missing values.</ins>
  
  * We may want to remove the “bad values” or the “outliers”. Outliers are observations that are very different from the majority of the observations in the data set. Missing values are outliers in our data set.
