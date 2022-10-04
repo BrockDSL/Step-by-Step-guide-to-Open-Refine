@@ -1,5 +1,5 @@
 
-![Tool Logo](Intro-Open-Refine.jpg)
+![Tool Logo](Open-Refine-Module-Splash.png)
 
 
 # 1.Introduction to Open Refine
